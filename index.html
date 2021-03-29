@@ -18,13 +18,13 @@
       <div class="header-content">
         <h2>Todo</h2>
         <div >
-          <button class="chane-theme"  onclick="myFunction()">
-            <img id="swap" src="images/icon-moon.svg" class="img-swap" />
+          <button class="chane-theme"  onclick="myFunction()" name="swap-btn">
+            <img id="swap" class="img-swap" src="images/icon-moon.svg"  alt="icon moon"/>
           </button>
         </div>
       </div>
       <div class="current-typing">
-        <button class="checkbox" disabled></button>
+        <button class="checkbox" name="current-task" disabled></button>
         <form>
           <input type="text" name="task" id="task" placeholder="Currently typing">
         </form>
@@ -38,7 +38,7 @@
       <ul class="list">
         <li>
           <div class="arrange">
-              <button class="checkbox" id="checked"></button>
+              <button class="checkbox" name="task_1" id="checked"></button>
               <div class="list-text">
                 <button class="checked-task" type="button" name="button">Complete online JavaScript course</button>
                 <button class="close" type="button" name="button">
@@ -49,7 +49,7 @@
         </li>
         <li>
           <div class="arrange">
-              <button class="checkbox"></button>
+              <button class="checkbox" name="task_2"></button>
               <div class="list-text">
                 <button type="button" name="button">Jog arounf the park 3X</button>
                 <button class="close" type="button" name="button">
@@ -60,7 +60,7 @@
         </li>
         <li>
           <div class="arrange">
-              <button class="checkbox"></button>
+              <button class="checkbox" name="task_3"></button>
               <div class="list-text">
                 <button type="button" name="button">10 minutes meditation</button>
                 <button class="close" type="button" name="button">
@@ -71,7 +71,7 @@
         </li>
         <li>
           <div class="arrange">
-              <button class="checkbox"></button>
+              <button class="checkbox" name="task_3"></button>
               <div class="list-text">
                 <button type="button" name="button">read for 1 hour</button>
                 <button class="close" type="button" name="button">
@@ -82,7 +82,7 @@
         </li>
         <li>
           <div class="arrange">
-              <button class="checkbox"></button>
+              <button class="checkbox" name="task_4"></button>
               <div class="list-text">
                 <button type="button" name="button">Pick up groceries</button>
                 <button class="close" type="button" name="button">
@@ -132,9 +132,6 @@
 
 
   </div>
-
-  </div>
-
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
